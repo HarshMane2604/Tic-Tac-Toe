@@ -96,3 +96,17 @@ const checkDraw = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetbtn.addEventListener("click", resetGame);
+
+const themeToggleBtn = document.querySelector("#themeToggle");
+
+themeToggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  // Toggle between sun and moon icons
+  if (document.body.classList.contains("dark-mode")) {
+    themeToggleBtn.innerText = "🌙"; // Moon icon
+  } else {
+    themeToggleBtn.innerText = "🌞"; // Sun icon
+  }
+});
+
