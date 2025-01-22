@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    margin-top: 3vmin;
     background-color: #548687;
     text-align: center;
 }
@@ -55,16 +56,13 @@ body{
      color: #ffffc7;
      font-size: 5vmin;
 }
-#mess-draw{
-    color: #ffffc7;
-    font-size: 5vmin;
-}
-.hide1{
-    display: none;
-}
 .msg-container{
-    margin-top: 3vmin;
-    height: 18vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 .hide{
     display: none;
