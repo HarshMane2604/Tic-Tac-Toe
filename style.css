@@ -10,7 +10,6 @@ body{
 .container{
     height: 70vh;
     display: flex;
-    
     justify-content: center;
     align-items: center;
 }
@@ -43,6 +42,7 @@ body{
     border: none;   
 }
 #new{
+    margin-top: 0.5rem;
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
@@ -55,8 +55,16 @@ body{
      color: #ffffc7;
      font-size: 5vmin;
 }
+#mess-draw{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.hide1{
+    display: none;
+}
 .msg-container{
-    height: 30vmin;
+    margin-top: 3vmin;
+    height: 18vmin;
 }
 .hide{
     display: none;
